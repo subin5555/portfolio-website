@@ -2,139 +2,106 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap"
+    rel="stylesheet"
+  />
 
-    <style>
-        * {
-            font-family: "Libertinus Mono", monospace;
-        }
-    </style>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 
+  <style>
+    * {
+      font-family: "Libertinus Mono", monospace;
+    }
+  </style>
 </head>
 
-<body>
+<body class="bg-white text-stone-950">
 
-    <nav class="bg-white-800 p-4 ">
-        <div class="flex justify-end space-x-6">
-            <a href="./Black and White Simple Infographic Resume (1).jpg"
-                class="text-stone-950 font-bold hover:bg-blue-500 md:px-3 py-2 rounded">RESUME</a>
+  <!-- Navbar -->
+  <nav class="p-4 bg-white shadow">
+    <div class="flex flex-col md:flex-row justify-end items-center space-y-2 md:space-y-0 md:space-x-6">
+      <a href="./Black and White Simple Infographic Resume (1).jpg"
+        class="font-bold hover:bg-blue-500 px-3 py-2 rounded transition">RESUME</a>
+      <a href="./index2.html"
+        class="font-bold hover:bg-blue-500 px-3 py-2 rounded transition">PROJECT</a>
+      <a href="./index3.html"
+        class="font-bold hover:bg-blue-500 px-3 py-2 rounded transition">CONTACT</a>
+    </div>
+  </nav>
 
-            <a href="./index2.html" class="text-stone-950 font-bold hover:bg-blue-500 md:px-3 py-2 rounded">PROJECT</a>
-            <a href="./index3.html" class="text-stone-950 font-bold hover:bg-blue-500 md:px-3 py-2 rounded">CONTACT</a>
-        </div>
-
-    </nav>
-    <diV>
-        <div class="md:grid grid-cols-2 md:px-20 ">
-            <div class="">
-                <img class="md:w-150 h-150 w-50 rounded-full object-full-cover " src="./profile picture of resume.jpg"
-                    alt="">
-            </div>
-            <div class="md:pt-20 pt-10">
-                <h1 class="text-5xl py-5 font-extrabold">HELLO!</h1>
-                <h2 class="text-3xl py-5 font-bold">I`am SUBIN WILSON</h2>
-                <p class="md:text-xl text-xs font-medium text-justify">I am a passionate frontend developer with strong knowledge
-                    of HTML, CSS, Bootstrap, Tailwind, and Figma. I enjoy creating responsive and user-friendly
-                    websites, focusing on clean design and modern UI/UX practices. I regularly improve my skills by
-                    building projects such as navbars, galleries, blogs, and dashboards while converting Figma designs
-                    into code. Along with frontend, I am expanding my expertise in JavaScript, React, and backend
-                    technologies like Node.js and Django. I also work with Git/GitHub for version control and deploy
-                    projects on platforms like Netlify and Vercel. My goal is to grow as a full-stack developer and
-                    deliver impactful digital solutions.</p>
-            </div>
-
-
-        </div>
-    </diV>
-    <!-- section2 -->
-    <div class="w-full h-fit pt-30 ">
-        <div class="flex flex-row justify-center items-center px-20 ">
-            <div class="flex flex-row items-center gap-30 p-5">
-                <button onclick="window.location.href='./Black and White Simple Infographic Resume (1).jpg'"
-                    class="w-32 h-32 font-bold bg-orange-400 rounded-full hover:bg-stone-50 border border-stone-950">
-                    RESUME
-                </button>
-
-                <div class="flex flex-row items-center  p-5">
-                    <button onclick="window.location.href='./index2.html'"
-                        class="w-32 h-32 font-bold bg-red-500 rounded-full hover:bg-stone-50 border-1 border-stone-950">PROJECT</button>
-                </div>
-
-                <div class="flex flex-row items-center  p-5">
-                    <button onclick="window.location.href='./index3.html'"
-                        class="w-32 h-32 font-bold bg-sky-400 rounded-full hover:bg-stone-50 border-1 border-stone-950">CONTACT</button>
-                </div>
-
-
-            </div>
-        </div>
-
-        <!-- <div class="flex flex-row justify-center items-center px-20 gap-50 pt-30">
-  
-  <button  onclick="window.location.href='./Black and White Simple Infographic Resume (1).jpg'"
-  class="w-32 h-32 font-bold bg-orange-400 rounded-full border-r-8 border-transparent hover:border-black">
-    RESUME
-  </button>
-
-  
-  <button class="w-32 h-32 font-bold bg-red-500 rounded-full border-x-8 border-transparent hover:border-black">
-    PROJECT
-  </button>
-
-  
-  <button class="w-32 h-32 font-bold bg-sky-400 rounded-full border-l-8 border-transparent hover:border-black">
-    CONTACT
-  </button>
-</div> -->
-
-
-       
-
-
- <footer class="bg-white text-stone-950 py-5 pt-20 ">
-  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
-    
-    <!-- Phone -->
+  <!-- Hero Section -->
+  <section class="px-6 md:px-20 py-10 md:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <div class="flex justify-center">
+      <img src="./profile picture of resume.jpg" alt="Profile Picture"
+        class="w-40 h-40 md:w-120 md:h-120 rounded-full object-cover-full" />
+    </div>
     <div>
-      <h3 class="text-lg font-semibold mb-2">📞 Phone</h3>
-      <p>9539566303</p>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">HELLO!</h1>
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">I'am SUBIN WILSON</h2>
+      <p class="text-sm md:text-lg font-medium text-justify">
+        I am a passionate frontend developer with strong knowledge of HTML, CSS, Bootstrap, Tailwind, and Figma. I enjoy creating responsive and user-friendly websites, focusing on clean design and modern UI/UX practices. I regularly improve my skills by building projects such as navbars, galleries, blogs, and dashboards while converting Figma designs into code. Along with frontend, I am expanding my expertise in JavaScript, React, and backend technologies like Node.js and Django. I also work with Git/GitHub for version control and deploy projects on platforms like Netlify and Vercel. My goal is to grow as a full-stack developer and deliver impactful digital solutions.
+      </p>
     </div>
+  </section>
 
-    <!-- Email -->
-    <div>
-      <h3 class="text-lg font-semibold mb-2">📧 Email</h3>
-      <p>subinwilson1118@gmail.com</p>
+  <!-- Buttons Section -->
+  <section class="py-10">
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-6 md:gap-20">
+      <button onclick="window.location.href='./Black and White Simple Infographic Resume (1).jpg'"
+        class="w-24 h-24 sm:w-32 sm:h-32 font-bold bg-orange-400 rounded-full hover:bg-stone-50 border border-stone-950 transition">
+        RESUME
+      </button>
+      <button onclick="window.location.href='./index2.html'"
+        class="w-24 h-24 sm:w-32 sm:h-32 font-bold bg-red-500 rounded-full hover:bg-stone-50 border border-stone-950 transition">
+        PROJECT
+      </button>
+      <button onclick="window.location.href='./index3.html'"
+        class="w-24 h-24 sm:w-32 sm:h-32 font-bold bg-sky-400 rounded-full hover:bg-stone-50 border border-stone-950 transition">
+        CONTACT
+      </button>
     </div>
+  </section>
 
-    <!-- Social Links -->
-    <div>
-      <h3 class="text-lg font-semibold mb-2">🔗 Follow Me</h3>
-      <ul class="space-y-2 flex ">
-        <li><a href="#" class="px-10"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="#" class=""><i class="fa-brands fa-twitter"></i></a></li>
-      </ul>
+  <!-- Footer -->
+  <footer class="bg-white py-10">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+      <div>
+        <h3 class="text-lg font-semibold mb-2">📞 Phone</h3>
+        <p>9539566303</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">📧 Email</h3>
+        <p>subinwilson1118@gmail.com</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-2">🔗 Follow Me</h3>
+        <div class="flex space-x-4">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin text-xl"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter text-xl"></i></a>
+        </div>
+      </div>
+      <div class="text-right">
+        <p class="mb-2">© 2025 By Subin Wilson.</p>
+        <p class="text-gray-400">Powered and secured by <span class="font-semibold">Wix</span></p>
+      </div>
     </div>
-
-    <!-- Branding -->
-    <div class="md:text-right">
-      <p class="mb-2">© 2035 By Nicol Rider.</p>
-      <p class="text-gray-400">Powered and secured by <span class="text-white font-semibold">Wix</span></p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
 
 </html>
+
